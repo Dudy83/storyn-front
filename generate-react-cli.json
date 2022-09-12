@@ -1,0 +1,22 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/common",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "page": {
+      "path": "src/pages",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}

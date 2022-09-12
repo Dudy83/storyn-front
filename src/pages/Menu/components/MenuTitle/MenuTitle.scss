@@ -1,0 +1,8 @@
+.MenuTitle {
+    @apply h-7 mb-6;
+
+    h1 {
+        border-bottom-right-radius: 28px;
+        @apply text-gray-50 pl-2.5 pr-4 w-fit h-full text-xl bg-mainColor font-medium truncate;
+    }
+}

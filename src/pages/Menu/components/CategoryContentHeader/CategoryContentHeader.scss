@@ -1,0 +1,7 @@
+.CategoryContentHeader {
+    @apply flex items-center justify-start mb-6;
+
+    svg {
+        @apply h-5 w-5 stroke-mainColor;
+    }
+}

@@ -1,0 +1,21 @@
+.Story {
+    @apply flex flex-col items-center justify-center;
+
+    .Bubble {
+        @apply h-story relative min-w-story max-w-story mx-1 rounded-full overflow-hidden;
+
+        .Circle {
+            @apply absolute min-w-story max-w-story;
+        }
+    
+
+        img:not(.Circle),
+        video {
+            @apply object-cover p-[5px] h-full w-full rounded-full ml-[-1px] mt-[-1px];
+        }
+    }
+
+    p {
+        @apply mt-1 text-center text-xs text-black font-extrabold truncate capitalize max-w-story;
+    }
+}

@@ -1,0 +1,19 @@
+.MenuCategory {
+    @apply w-11/12 relative shadow-sm shadow-mainColor/30 overflow-hidden cursor-pointer rounded-xl h-categ text-white text-left font-extrabold px-6 flex items-center justify-between mb-4 mx-auto text-lg;
+
+    img {
+        @apply absolute w-full left-0 -z-10;
+    }
+
+    h3 {
+        @apply uppercase;
+    }
+
+    span {
+        @apply items-center justify-center flex p-1 bg-white rounded-full;
+
+        svg {
+            @apply h-5 w-5 stroke-mainColor;
+        }
+    }
+}

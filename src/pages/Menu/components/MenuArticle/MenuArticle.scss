@@ -1,0 +1,25 @@
+.MenuArticle {
+    @apply flex px-3 items-start justify-between mb-7;
+
+    &:last-child {
+        @apply mb-0;
+    }
+
+    div {
+        @apply flex flex-col items-start justify-start;
+
+        p {
+            &:first-child {
+                @apply text-xs font-medium;
+            }
+
+            &:last-child {
+                @apply text-[10px] font-extralight truncate;
+            }
+        }
+    }
+
+    .ArticlePrice {
+        @apply text-sm font-medium mt-auto;
+    }
+}
